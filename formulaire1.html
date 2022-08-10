@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+    <head>
+	    <title>Mon premier formulaire</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" href="formulaire1.css">
+		<link rel="stylesheet" href="fontawesome-free-6.1.1-web/fontawesome-free-6.1.1-web/css/all.min.css" />
+    </head>
+
+    <body>
+            
+	        <div id="contener">
+		        <div class="row">
+				<section class="sec1">
+				 <p><img src="imgs/mon-image.jpg"></p>
+		        </section>
+			    <section class="sec2">
+			        <form method="post" action="traitement.php">
+					
+    	 	            <h1>REGISTRATION FORM</h1>
+						
+						   
+                        <input class="name" type="text" name="" value="" placeholder="First name" />   
+    		           	<input class="name" type="text" name="" value="" placeholder="Last name" />
+						<br/> <br/> 
+						
+    			        <input class="user" type="text" name="" value="" placeholder="Username"  />
+						<i class="fa-solid fa-user" id="i1" ></i>
+						<br/> <br/> 
+						
+    			        <input class="user" type="email" name="" value="" placeholder="Email adress" />
+						<i class="fa-solid fa-envelope" id="i2" ></i>
+						<br/><br/>  
+						
+    			        <select class="genre" name="genre">
+						    <option disabled="disabled" selected="selected">gender</option>
+                            <option >Male</option> 
+    			            <option >Female</option>
+    			        </select><br/><br/> 
+						
+    			        <input class="user" type="password" name="" value="" placeholder="password" />
+						<i class="fa-solid fa-lock" id="i3"></i>
+						<br/><br/> 
+						   
+    			        <input class="user" type="password" name="" value="" placeholder="Confirm password" />
+						<i class="fa-solid fa-lock" id="i4"></i>
+						<br/><br/>  
+						   
+    			        <input id="button" type="submit" value="Register">
+    		       </form>
+	            </section>
+		</div>
+	</body>
+</html>

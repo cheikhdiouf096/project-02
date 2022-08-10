@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+    <head>
+	    <title>Ma page</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="stylesheet" href="formulaire4.css">
+		
+    </head>
+
+    <body>
+            
+	    <div id="contener">
+		        
+				<div class="photo">
+				    <p><img src="imgs/imageb1.jpg"></p>
+					<h1 class="heading">REGISTER NOW</h1>
+		        </div>
+				
+	    <div class="form">
+			<form method="post" action="traitement.php">
+					<div class="row1">
+						<div class="rowa">
+						
+						<legend>FIRST NAME</legend> 
+						<input type="text" class="input">
+						<br/><br/>
+						
+						<legend>LAST NAME</legend> 
+						<input type="text" class="input" required="required">
+						<br/><br/>
+						
+						<legend>COMPANY</legend> 
+						<input type="text" class="input">
+						<br/><br/>
+						
+						<legend for="email" >EMAIL</legend> 
+						<input type="text" id="email" class="input">
+						<br/><br/>
+						
+						<legend for="number" >PHONE NUMBER</legend> 
+						<input type="number" id="number" class="input">
+						
+						</div>
+						
+					    <div class="rowb">      
+						 <legend>MEAL PREFERENCE<a href="http://monsite.com">launch detail</a></legend>
+						<input type="text" class="input">
+						<br/><br/>
+						
+						<legeng id="mode">PAYEMENT MODE <a href="http://monsite.com">Payement detail</a></legend><br/>
+						<input type="radio" class="radio" name="sample">
+						<label>Cash</label>
+						<input type="radio" class="radio" name="sample">
+						<label>cheque</label>
+						<input type="radio" class="radio" name="sample">
+						<label>Demand draft</label>
+						<br/><br/>
+						 
+						<legend>DD/CHEQUE NO.</legend> 
+						<input type="text" class="input">
+						<br/><br/>
+						
+						<legend for="email">DRAWN ON(BANK NAME)</legend> 
+						<input type="text" id="email" class="input">
+						<br/><br/>
+						
+						<legend for="number">PAYABLE AT</legend> 
+						<input type="TEXT"id="number" class="input">
+						
+						</div>
+						</div>
+						
+				    <div class="row2">
+						    <legend id="donnate">DONNATE US</legend>
+						    <input type="range" value="$500" step="100" min="10"  max="1000" class="range" id="slider">
+							<br/>
+							<span>< $500 ></span>
+							<input type="submit" value="reset" class="submit">
+							
+							<input type="submit" value="submit" class="submit">
+						
+						</div>
+    		       </form>
+				</div>
+	        </form>
+		</div>
+	</body>
+</html>

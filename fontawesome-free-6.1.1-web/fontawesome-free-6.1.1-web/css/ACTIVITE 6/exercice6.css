@@ -1,0 +1,96 @@
+body{
+    background-color: teal;
+}
+
+
+#aside, #contener{
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+#contener{
+    
+    width: 80%;
+    float: right;
+}
+
+#aside{   
+    width: 18%;
+    margin: 5px 5px 5px 5px;
+    height: 500px;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+header{
+    background-color: orange;
+    width: 100%;
+	margin-top: 10px;
+	border-radius: 10px;
+	margin-bottom: 50px;
+}
+
+.row1{
+    display: flex;
+ }
+
+h1{
+	color: white;
+	text-align: center;
+}
+
+p{
+	color: white;
+	text-align: center;
+}
+
+img{
+	float: right;
+}
+
+h2{
+    text-align: center;
+    color: teal;
+}
+
+
+section{
+    display: inline-block;
+    width: auto;
+	vertical-align: top;
+	border-radius: 3px;
+}
+
+.sec1{
+    background-color: purple;
+}
+.sec2{
+    background-color: yellow;
+}
+.sec3{
+    background-color: green;
+}
+
+
+
+@media all and (max-width: 1024px)
+{
+    section
+    {
+        display: block;
+        width: auto;
+
+    }
+
+    #aside
+    {
+        display: none;
+    }
+
+    #contener
+    {
+        width: auto;
+    }
+
+}
